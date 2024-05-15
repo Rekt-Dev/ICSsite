@@ -11,7 +11,6 @@
 <section class="posts section">
 	<div class="container">
 		<div class="row">
-			<!-- /section title -->
 			<!-- single blog post -->
 			<article class="col-lg-4 col-md-6">
 				<div class="post-item">
@@ -21,8 +20,7 @@
 
 					<div class="content">
 						<h3><a href="single-post.html">Reasons to Smile</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<p>Discover uplifting moments in the world of crypto trading.</p>
 						<a class="btn btn-main" href="single-post.html">Read more</a>
 					</div>
 				</div>
@@ -38,8 +36,7 @@
 
 					<div class="content">
 						<h3><a href="single-post.html">A Few Moments</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<p>Explore brief insights into the crypto market.</p>
 						<a class="btn btn-main" href="single-post.html">Read more</a>
 					</div>
 				</div>
@@ -55,13 +52,13 @@
 
 					<div class="content">
 						<h3><a href="single-post.html">Hints for Life</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<p>Discover valuable tips for navigating the crypto landscape.</p>
 						<a class="btn btn-main" href="single-post.html">Read more</a>
 					</div>
 				</div>
 			</article>
-			<!-- /section title -->
+			<!-- /single blog post -->
+
 			<!-- single blog post -->
 			<article class="col-lg-4 col-md-6">
 				<div class="post-item">
@@ -71,8 +68,7 @@
 
 					<div class="content">
 						<h3><a href="single-post.html">Looking Back</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<p>Reflect on past trends and events in the crypto world.</p>
 						<a class="btn btn-main" href="single-post.html">Read more</a>
 					</div>
 				</div>
@@ -88,8 +84,7 @@
 
 					<div class="content">
 						<h3><a href="single-post.html">Laugh and Cry</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<p>Explore the humorous and emotional side of crypto trading.</p>
 						<a class="btn btn-main" href="single-post.html">Read more</a>
 					</div>
 				</div>
@@ -105,8 +100,7 @@
 
 					<div class="content">
 						<h3><a href="single-post.html">Regret No More</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<p>Learn from mistakes and move forward confidently in your crypto journey.</p>
 						<a class="btn btn-main" href="single-post.html">Read more</a>
 					</div>
 				</div>
