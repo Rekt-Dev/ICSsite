@@ -1,0 +1,108 @@
+@@include('header.htm') 
+
+@@include('blocks/navigation.htm',{
+    "active"    : "blog"
+})
+
+@@include('blocks/page-header.htm', { 
+    "page-name": "Blog Single"
+})
+
+<!-- blog details part start -->
+<section class="blog-details section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <article class="post">
+          <div class="post-image mb-5">
+            <img loading="lazy" class="img-fluid w-100" src="images/blog/post-1.jpg" alt="post-image">
+          </div>
+          <!-- Post Content -->
+          <div class="post-content">
+            <h3>Crypto Day Trading Strategies</h3>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="index.html">Admin</a>&nbsp;/
+              </li>
+              <li class="list-inline-item">
+                <a href="single-post.html">30 comments</a>&nbsp;/
+              </li>
+              <li class="list-inline-item">
+                <a href="single-post.html">30 likes</a>
+              </li>
+            </ul>
+            <p>Discover effective crypto day trading strategies to maximize your profits in the volatile cryptocurrency market.</p>
+            <p>Learn how to trade cryptocurrencies like Bitcoin, Ethereum, and altcoins with confidence and success.</p>
+            <!-- blockquote -->
+            <blockquote>Success in crypto day trading requires discipline, patience, and a solid trading strategy. Stay informed, stay disciplined, and stay profitable.</blockquote>
+            <!-- post share -->
+            <ul class="post-content-share list-inline mb-5">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/InvictusCrypto">
+                  <i class="tf-ion-social-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/company/invictuscrypto/">
+                  <i class="tf-ion-social-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/InvictusCrypto">
+                  <i class="tf-ion-social-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://t.me/InvictusCrypto">
+                  <i class="tf-ion-social-skype"></i>
+                </a>
+              </li>
+            </ul>
+
+            <h3>2 comments</h3>
+            <ul class="comment-list">
+              <!-- comment list -->
+              <li class="comment-list-item">
+                <div class="comment-list-item-image">
+                  <img loading="lazy" src="images/blog/comment-1.jpg" alt="comment-img">
+                </div>
+                <div class="comment-list-item-content">
+                  <h5>Anke Kirsch</h5>
+                  <h6>Aug 20, 2018</h6>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor emque laudant tota rem ape riamipsa eaque. </p>
+                  <a href="single-post.html" class="comment-btn">reply</a>
+                </div>
+              </li>
+              <li class="comment-list-item">
+                <div class="comment-list-item-image">
+                  <img loading="lazy" src="images/blog/comment-2.jpg" alt="comment-img">
+                </div>
+                <div class="comment-list-item-content">
+                  <h5>Falk Burger</h5>
+                  <h6>Aug 20, 2018</h6>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor emque laudant tota rem ape riamipsa eaque. </p>
+                  <a href="single-post.html" class="comment-btn">reply</a>
+                </div>
+              </li>
+            </ul>
+            <h3>Leave A Comment</h3>
+            <!-- Comment Form -->
+            <form action="#" class="comment-form">
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <input type="text" name="first-name" class="form-control" id="first-name" placeholder="First Name" required>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <input type="email" name="mail" class="form-control" id="mail" placeholder="Email" required>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                  <textarea class="form-control" name="msg" id="msg" rows="6" placeholder="Message" required></textarea>
+                </div>
+              </div>
+              <button type="submit" value="send" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </article>
+      </div>
+      <div class="col-lg-4 mt-5 mt-lg-0">
+        <!-- sidebar
