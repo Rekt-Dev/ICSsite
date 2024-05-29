@@ -1,3 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Invictus Crypto Strategies | Crypto Trading Firm</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="Invictus Crypto Strategies - A leading crypto day trading firm providing high-quality trading services.">
+  <meta name="author" content="Invictus Crypto Strategies">
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Include EmailJS SDK -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    (function() {
+      emailjs.init("xfj3EPIImfVhefB1A"); // Replace with your EmailJS user ID
+    })();
+  </script>
+</head>
+<body id="body">
+
+<header class="navigation fixed-top">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light px-0">
+      <a class="navbar-brand logo" href="index.html">
+        <img class="logo-default" src="images/logo.png" alt="logo" />
+        <img class="logo-white" src="images/logo-white.png" alt="logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+          <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="single-page-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Contact Us</h2>
+        <ol class="breadcrumb header-bradcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html" class="text-white">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-us" id="contact">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-8">
+        <div class="title text-center">
+          <h2>Get In Touch</h2>
+          <p>Have questions or inquiries? Reach out to us! Our team is here to assist you with any queries related to cryptocurrency trading.</p>
+          <div class="border"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-details col-md-6">
+        <h3 class="mb-3">Contact Details</h3>
+        <p>Feel free to visit us or get in touch through the contact details provided below:</p>
+        <ul class="contact-short-info mt-4">
+          <li class="mb-3"><i class="tf-ion-ios-home"></i><span>Yehudit Bvd 31, Montifore, Tel-Aviv, Israel</span></li>
+          <li class="mb-3"><i class="tf-ion-android-phone-portrait"></i><span>Phone: +972-52-656565-2</span></li>
+          <li class="mb-3"><i class="tf-ion-android-mail"></i><span>Email: info@invictuscryptostrategies.com</span></li>
+        </ul>
+        <div class="social-icon">
+          <ul>
+            <li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
+            <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
+            <li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact-form col-md-6">
+        <form id="contact-form" method="post" role="form">
+          <div class="form-group mb-4">
+            <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
+          </div>
+          <div class="form-group mb-4">
+            <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" required>
+          </div>
+          <div class="form-group mb-4">
+            <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" required>
+          </div>
+          <div class="form-group mb-4">
+            <textarea rows="6" placeholder="What's on your mind?" class="form-control" name="message" id="message" required></textarea>
+          </div>
+          <div id="cf-submit">
+            <input type="submit" id="contact-submit" class="btn btn-main" value="Submit">
+          </div>
+        </form>
+        <div id="form-messages"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <script>
   $(document).ready(function() {
     $('#contact-form').on('submit', function(e) {
@@ -10,7 +124,7 @@
         message: $('#message').val()
       };
 
-      emailjs.send('your_service_id', 'your_template_id', templateParams) // Replace with your service ID and template ID
+      emailjs.send(service_l1gq19r, template_sjqqkbb, templateParams)
         .then(function(response) {
           $('#form-messages').html('<p>Message sent successfully!</p>');
           $('#contact-form')[0].reset();
@@ -20,3 +134,6 @@
     });
   });
 </script>
+
+</body>
+</html>
