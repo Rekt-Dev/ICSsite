@@ -1,99 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  ================================================== -->
-  <meta charset="utf-8">
-  <title>Invictus Crypto Strategies | Crypto Day Trading Firm</title>
-
-  <!-- Mobile Specific Metas
-  ================================================== -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Invictus Crypto Strategies - A leading crypto day trading firm providing high-quality trading services.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Invictus Crypto Strategies">
-  <meta name="generator" content="Invictus Crypto Strategies HTML Template v1.0">
-  
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-
-  <!-- CSS
-  ================================================== -->
- 
-  <!-- Bootstrap.min CSS -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- Lightbox.min CSS -->
-  <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css">
-  <!-- Animation CSS -->
-  <link rel="stylesheet" href="plugins/animate/animate.css">
-  <!-- Slick Carousel -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body id="body">
-
-  <!-- Start Preloader -->
-  <div id="preloader">
-    <div class='preloader'>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-  <!-- End Preloader -->
-
-  <!-- Start Login Section -->
-  <section class="login-section bg-one" id="login">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-8">
-          <div class="section-title text-center">
-            <h2>Login</h2>
-            <p>Enter your credentials to access the protected area.</p>
-          </div>
-          <form id="login-form">
-            <div class="form-group">
-              <input type="text" class="form-control" id="username" placeholder="Username" required>
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="password" placeholder="Password" required>
-            </div>
-            <button type="submit" class="btn btn-main btn-block">Login</button>
-            <p id="login-error" class="text-danger mt-2"></p>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Login Section -->
-
-  <!-- Essential Scripts -->
-  <!-- Main jQuery -->
-  <script src="plugins/jquery/jquery.min.js"></script>
-  <!-- Bootstrap4 -->
-  <script src="plugins/bootstrap/bootstrap.min.js"></script>
-  <!-- Custom JavaScript -->
-  <script>
-    $(document).ready(function() {
-      $('#login-form').submit(function(e) {
-        e.preventDefault();
-        var username = $('#username').val();
-        var password = $('#password').val();
-        // Simple validation (Replace this with your actual authentication logic)
-        if (username === 'Invictus' && password === 'Strategies') {
-          // Redirect to the protected area or perform any other action
-          window.location.href = 'protected_page.html';
-        } else {
-          $('#login-error').text('Invalid username or password');
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-      });
-    });
-  </script>
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <input type="text" id="username" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p id="login-error" class="error-message"></p>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#login-form').submit(function(e) {
+                e.preventDefault();
+                var username = $('#username').val();
+                var password = $('#password').val();
+                // Simple validation (Replace this with your actual authentication logic)
+                if (username === 'your_username' && password === 'your_password') {
+                    // Redirect to the protected area or perform any other action
+                    window.location.href = 'protected_page.html';
+                } else {
+                    $('#login-error').text('Invalid username or password');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
