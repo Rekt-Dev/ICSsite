@@ -124,7 +124,7 @@
         message: $('#message').val()
       };
 
-      emailjs.send(service_l1gq19r, template_sjqqkbb, templateParams)
+      emailjs.send("service_l1gq19r", "template_sjqqkbb", templateParams)
         .then(function(response) {
           $('#form-messages').html('<p>Message sent successfully!</p>');
           $('#contact-form')[0].reset();
