@@ -126,11 +126,10 @@
 
       emailjs.send("service_l1gq19r", "template_sjqqkbb", templateParams)
         .then(function(response) {
-          $('#form-messages').html('<p>Message sent successfully from ' + templateParams.name + ' with email ' + templateParams.email + '!</p>');
+          $('#form-messages').html('<p>Message sent successfully!</p>');
           $('#contact-form')[0].reset();
         }, function(error) {
-          $('#form-messages').html('<p>Sorry
-, something went wrong. Please try again later.</p>');
+          $('#form-messages').html('<p>Sorry, something went wrong. Please try again later.</p>');
         });
     });
 
