@@ -48,18 +48,6 @@
   </div>
   <!-- End Preloader -->
 
-  <!-- Navigation -->
-  <!-- Your navigation code goes here -->
-
-  <!-- Page Header -->
-  <!-- Your page header code goes here -->
-
-  <!-- Start About Section -->
-  <!-- Your about section code goes here -->
-
-  <!-- Start Pricing Section -->
-  <!-- Your pricing section code goes here -->
-
   <!-- Start Login Section -->
   <section class="login-section bg-one" id="login">
     <div class="container">
@@ -85,9 +73,6 @@
   </section>
   <!-- End Login Section -->
 
-  <!-- Footer -->
-  <!-- Your footer code goes here -->
-
   <!-- Essential Scripts -->
   <!-- Main jQuery -->
   <script src="plugins/jquery/jquery.min.js"></script>
@@ -96,13 +81,12 @@
   <!-- Custom JavaScript -->
   <script>
     $(document).ready(function() {
-      // Your login validation logic goes here
       $('#login-form').submit(function(e) {
         e.preventDefault();
         var username = $('#username').val();
         var password = $('#password').val();
         // Simple validation (Replace this with your actual authentication logic)
-        if (username === 'Invictus' && password === 'Strategies') {
+        if (username === 'your_username' && password === 'your_password') {
           // Redirect to the protected area or perform any other action
           window.location.href = 'protected_page.html';
         } else {
