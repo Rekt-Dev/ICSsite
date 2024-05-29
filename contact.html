@@ -118,8 +118,8 @@
       e.preventDefault(); // Prevent the default form submission
 
       var templateParams = {
-        from_name: $('#name').val(),
-        from_email: $('#email').val(),
+        name: $('#name').val(),
+        email: $('#email').val(),
         subject: $('#subject').val(),
         message: $('#message').val()
       };
@@ -130,4 +130,10 @@
           $('#contact-form')[0].reset();
         }, function(error) {
           $('#form-messages').html('<p>Sorry, something went wrong. Please try again later.</p>');
-       
+        });
+    });
+  });
+</script>
+
+</body>
+</html>
